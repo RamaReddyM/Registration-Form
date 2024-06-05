@@ -21,7 +21,6 @@ app.post("/sign_up",(req,res) => {
     var email=req.body.email
     var phno=req.body.phno
     var gender=req.body.gender
-    var dob=req.body.dob
     var password=req.body.password
 
     var data={
@@ -30,7 +29,6 @@ app.post("/sign_up",(req,res) => {
         "email":email,
         "phno":phno,
         "gender":gender,
-        "dob":dob,
         "password":password
     }
     db.collection('users').insertOne(data,(err,collection) => {
@@ -44,9 +42,9 @@ app.post("/sign_up",(req,res) => {
 
 app.get("/",(req,res) => {
     res.set({
-        "Allow-acces-Allow-Origin":'*'
+        "Allow-acces-Allow-Origin":'*',
     })
     return res.redirect('index.html')
-}).listen(3030);
+}).listen(3050);
 
-console.log("Listening on port 3030")
+console.log("Listening on port 3050")
