@@ -1,0 +1,57 @@
+
+.container {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 30px; 
+    font-family: Arial;
+    box-shadow: 5px 5px 7px 5px #8888;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.main-heading {
+    font-family: 'Arial, sans-serif';
+    font-size: 3em; /* Adjust size as needed */
+    color: #0d2b48; /* Dark shade for text color */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Adjust top margin as needed */
+    text-shadow: 2px 2px 4px #880e0e; /* Add a subtle shadow */
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient background */
+    /*-webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;  */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block;
+    padding: 0 10px; /* Adjust padding to control border spacing */
+    border: 3px solid #8a0c4d; /* Border with solid color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #764776;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin-top: 10px;
+    border-radius: 10px;
+cursor: pointer;
+}
+.footer {
+    text-align: center; 
+    margin-top: 10px; 
+    font-size: 1em; 
+    color: #777; 
+    padding:10px;
+    border-top: 1px solid #ddd; 
+}
+
